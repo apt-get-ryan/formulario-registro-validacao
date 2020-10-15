@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de login</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <fieldset>
+                <input type="email" name="email" class="input" placeholder=""/>
+                <label for="email">E-mail</label> 
+            </fieldset>
+
+            <fieldset>
+                <input type="text" name="user" class="input" placeholder=""/>
+                <label for="user">Usuário</label> 
+            </fieldset>
+
+            <fieldset>
+                <input type="password" name="password" class="input pass" placeholder="" >
+                <label for="password">Password</label>
+            </fieldset>
+
+            <div class="strenght">
+                <span class="bar bar-1"></span>
+                <span class="bar bar-2"></span>
+                <span class="bar bar-3"></span>
+                <span class="bar bar-4"></span>
+            </div>
+            <ul>
+                <li> <span class="valid"></span> Deve ter pelo menos 5 caracteres</li>
+                <li> <span class="valid"></span> Deve conter uma letra maiúscula</li>
+                <li> <span class="valid"></span> Deve conter um número</li>
+                <li> <span class="valid"></span> Deve conter um caractere especial</li>
+            </ul>
+            <div class="row-button">
+                <button type="submit">Entrar</button>
+            </div>
+        </form>
+    </div>  
+    <script src="script.js"></script>
+</body>
+</html>
