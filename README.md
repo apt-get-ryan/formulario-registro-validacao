@@ -5,7 +5,7 @@
 [Créditos ao vídeo](https://youtu.be/yrrw6KdGuxc)
 [Fireship Io.](https://github.com/fireship-io/)
 Eu segui o tutorial e gostei bastante, porém decidi usar javascript puro diretamente invés de Svelte.
-O formulário segue os critérios:
+O formulário tem uma validação que segue os critérios:
 - Deve ter pelo menos 5 caracteres
 - Deve conter uma letra maiúscula
 - Deve conter um número
