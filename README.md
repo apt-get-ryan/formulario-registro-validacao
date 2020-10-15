@@ -3,7 +3,7 @@
 
 # De onde tive a ideia:
 [Créditos ao vídeo](https://youtu.be/yrrw6KdGuxc)
-[Fireship Io](https://github.com/fireship-io/)
+[Fireship Io.](https://github.com/fireship-io/)
 Eu segui o tutorial e gostei bastante, porém decidi usar javascript puro diretamente invés de Svelte.
 O formulário segue os critérios:
 - Deve ter pelo menos 5 caracteres
