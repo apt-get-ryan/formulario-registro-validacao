@@ -27,3 +27,16 @@ document.querySelector(".pass").addEventListener("input", function(){
     })
 
 })
+
+document.querySelector(".fa").addEventListener("click", () => {
+    showPassword = !showPassword;
+    if(showPassword == true){
+        document.querySelector(".fa").classList.remove("fa-eye-slash");
+        document.querySelector(".fa").classList.add("fa-eye");
+        document.querySelector(".pass").setAttribute("type", "text");
+    }else {
+        document.querySelector(".fa").classList.remove("fa-eye");
+        document.querySelector(".fa").classList.add("fa-eye-slash");
+        document.querySelector(".pass").setAttribute("type", "password");
+    }
+})

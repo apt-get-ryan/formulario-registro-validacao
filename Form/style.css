@@ -149,3 +149,11 @@ ul {
     margin: 10px auto;
     display: block;
 }
+.fa {
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+}
